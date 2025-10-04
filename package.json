@@ -1,0 +1,33 @@
+{
+  "name": "template-api-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.3",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "child_process": "^1.0.2",
+    "concurrently": "^9.1.2",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.1.9",
+    "os": "^0.1.2"
+  }
+}
